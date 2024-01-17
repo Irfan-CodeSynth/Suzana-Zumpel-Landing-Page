@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.main-container {
+  background-color: #ab8f97;
+  height: 100%;
+  width: 100%;
+  display: flex;
+ 
+}
+.part1 {
+  height: 100%;
+  width: 26%;
+ 
+}
+.part2 {
+  height: 100%;
+  width: 67%;
+  background-image: url(https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.34);
+  height: 100%;
+  width: 100%;
+}
+
+.part3 {
+  height: 100%;
+  width: 7%;
+}
+
+.text-div {
+  height: 300px;
+  width: 400px;
+  position: absolute;
+  /* background-color: red; */
+  left: 7%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.text-div > h1 {
+  font-size: 85px;
+  font-family: sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 78px;
+  color: #fff;
+  letter-spacing: 10px;
+}
+.small-img-div{
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    background-image: url(https://images.unsplash.com/photo-1635814442700-446512be496a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+
+}
+
+.vertical-text{
+    position: absolute;
+    width: 100%;
+    right: -96%;
+    top: 5%;
+    transform-origin: 1%;
+    transform: rotate(90deg);
+    z-index: 5;
+
+}
+.vertical-text  h1{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+    color: transparent;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+
+}
+
+.nav{
+    position: absolute;
+    width: 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 5%;
+    left: 7%;
+}
+.nav img{
+    height: 70px;
+
+}
+
+.nav h5{
+    font-size: 20px;
+    font-family: sans-serif;  
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
